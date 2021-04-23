@@ -7,4 +7,4 @@ Projek Sains Komputer Tingkatan 5 SPM 2021. Sape nak copy bleh. Ini versi aku se
 ## Fail yang ada
 1. _kuizonline.sql_ - Fail sql database
 
-Inline `code` has `back-ticks around` it.
+Nak copy akunye repo guna git : `git clone ` 
