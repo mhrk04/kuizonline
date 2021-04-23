@@ -7,4 +7,4 @@ Projek Sains Komputer Tingkatan 5 SPM 2021. Sape nak copy bleh. Ini versi aku se
 ## Fail yang ada
 1. _kuizonline.sql_ - Fail sql database
 
-Nak copy akunye repo guna git : `git clone ` 
+Nak copy akunye repo guna git : `git clone https://github.com/mhrk04/kuizonline.git ` 
