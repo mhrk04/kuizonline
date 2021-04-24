@@ -13,6 +13,3 @@ if ($hasil == true)
     echo "berjaya tambah";
 else
     echo "tidak berjaya tambah";
-
-
-?>
