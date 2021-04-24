@@ -1,0 +1,77 @@
+<head>
+<link rel="stylesheet" href="borang.css">
+<link rel="stylesheet" href="button.css">
+</head>
+<body>
+<h3>Tambah Pelajar</h3>
+
+<form action="pelajar_insert.php" method="post">
+    <table>
+    <tr>
+    <td class="warna">ID Pelajar</td>
+    <td><input id="IDPelajar" onblur="semak()" type=text name="IDPelajar" placeholder="P001"></td>    
+    </tr>
+        
+    <tr>
+    <td class="warna">Nama</td>
+    <td><input type=text name="Nama_Pelajar"></td>
+    </tr>
+        
+    <tr>
+    <td class="warna">ID Kelas</td>
+    <td><input type=text name="IDKelas" placeholder="K01"></td>  
+    </tr>
+        
+    <tr>
+    <td class="warna">KataLaluan</td>        
+    <!-- Password field -->
+    <td><input type="password" id="myInput" name="KataLaluan"></td>   
+    <!-- An element to toggle between password visibility -->
+    <td><input type="checkbox" onclick="myFunction()">Show Password</td>
+    
+<!-- butang untuk show pass javascript --> 
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+    </tr>
+    
+    </table>
+ <button type="submit">Tambah</button>
+</form>
+<br>
+
+<center>
+    <button class=biru onclick="tukar_warna(0)">Biru</button>
+    <button class=hijau onclick="tukar_warna(1)">Hijau</button>
+    <button class=merah onclick="tukar_warna(2)">Merah</button>
+    <button class=hitam onclick="tukar_warna(3)">Hitam</button>
+<script>
+    function semak() {
+
+        var IDPelajar = document.getElementById("IDPelajar").value;
+
+        if (IDPelajar.lenght == 0)
+            alert("Sila isi IDPelajar");
+        else if (IDPelajar.lenght > 4)
+            alert("IDPelajar tidak boleh melebihi 4 aksara"); 
+    }
+    function tukar_warna(n){
+
+        var warna = ["Blue","Green","Red","Black"];
+        var teks = document.getElementByClassName('warna');
+        for (var i = 0; i < teks.length; i++) 
+            teks[i].style.color = warna[n];
+        
+    }
+
+</script>
+
+</center>
+</body>

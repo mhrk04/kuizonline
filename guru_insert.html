@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Tambah Guru</h3>
+
+<form action="guru_insert.php" method="post">
+    <table>
+    <tr>
+    <td>ID Guru</td>
+    <td><input type=text name="IDGuru"></td>    
+    </tr>
+        
+    <tr>
+    <td>Nama Guru</td>
+    <td><input type=text name="Nama_Guru"></td>
+    </tr>
+        
+    <tr>
+    <td>Password</td>        
+    <!-- Password field -->
+    <td><input type="password" id="myInput" name="KataLaluan"></td>   
+    <!-- An element to toggle between password visibility -->
+    <td><input type="checkbox" onclick="myFunction()">Show Password</td>
+    
+<!-- butang untuk show pass javascript --> 
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+    </tr>
+    
+    </table>
+ <button type="submit">Tambah</button>
+</form>
+</body>
+</html>

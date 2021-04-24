@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Kemaskini Pelajar</h3>
+<form action="pelajar_update.php" method="post">
+    <table>
+    <tr>
+    <td>ID Pelajar</td>
+    <td><input type=text name="IDPelajar"></td>    
+    </tr>
+        
+    <tr>
+    <td>Nama</td>
+    <td><input type=text name="Nama_Pelajar"></td>
+    </tr>
+        
+    <tr>
+    <td>ID Kelas</td>
+    <td><input type=text name="IDKelas"></td>  
+    </tr>
+        
+    <tr>
+    <td>Katalaluan</td>        
+    <!-- Password field -->
+    <td><input type="password" id="myInput" name="KataLaluan"></td>   
+    <!-- An element to toggle between password visibility -->
+    <td><input type="checkbox" onclick="myFunction()">Show Password</td>
+    
+<!-- butang untuk show pass javascript --> 
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+    </tr>
+    
+    </table>
+     <button type="submit">Kemaskini</button>
+    </form>
+
+
+</body>
+</html>
