@@ -160,3 +160,6 @@ VALUES ('G01', 'Norliza', '1234'), ('G02', 'Rashid', '5678');
 
 INSERT INTO `pelajar`
 VALUES ('P001', 'Amsyar', 'K01', '7676'), ('P002', 'Amir', 'K01', '4646'), ('P003', 'Amar', 'K02', '1616');
+
+INSERT INTO `soalan`
+VALUES ('S001','Apakah tujuan penubuhan negeri-negeri selat?','Untuk menyeragamkan pentadbiran & jimatkan perbelanjaan','untuk mengisi masa lapang','British saje-saje','A','G01'), ('S002','Berikut ialah negeri-negeri Selat kecuali:','Pulau Pinang','Negeri Sembilan','Singapura','B','G01'), ('S003','Apakah barangan dari China yang diperlukan oleh British?','Emas','Perak','Teh','C','G01'), ('S004', 'Kedudukan Singapura di bahagian selatan Semenanjung Tanah Melayu dapat mengawal kegiatan perdagangan Selat _________ dan Selat Sunda.','Melaka','Johor','Sumatera','A','G02'), ('S005','Siapakah Residen pertama di Singapura?','William Farquhar','Stamford Raffles','Edward Monckton','A','G02');
